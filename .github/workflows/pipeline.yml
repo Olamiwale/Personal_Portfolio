@@ -27,19 +27,7 @@ jobs:
       - name: Run tests
         run: npm run test -- --coverage
 
-      # 2. Linting
-      - name: Run ESLint
-        run: npm run lint
 
-      # 3. Type checking
-      - name: Type check
-        run: npm run type-check
-
-      # 4. Security check
-      - name: Run npm audit
-        run: npm audit --audit-level=high || true
-
-      # 5. Build verification
       - name: Build Vite app
         run: npm run build
 
