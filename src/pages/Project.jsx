@@ -1,4 +1,3 @@
-import React from 'react'
 import { projectData } from '../data'
 
 export default function Project() {

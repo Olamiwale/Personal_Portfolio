@@ -1,4 +1,3 @@
-import React from "react";
 import { Link, Element, animateScroll as scroll } from "react-scroll";
 
 export default function Footer() {

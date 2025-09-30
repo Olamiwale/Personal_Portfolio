@@ -1,4 +1,4 @@
-import React,{useEffect, useState} from 'react';
+import {useEffect, useState} from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
 import { FaChevronDown } from "react-icons/fa6";
 import { FaChevronUp } from "react-icons/fa6";

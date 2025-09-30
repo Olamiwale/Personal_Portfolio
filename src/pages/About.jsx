@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
 
 
@@ -12,12 +11,11 @@ export default function About() {
       <h1 className="font-bold  text-3xl">About</h1>
       <h2 className="py-4 font-semibold text-xl">Who I Am?</h2>
       <p className="tracking-wider mb-10 leading-10 md:w-[500px] mt-10">
-            I'm a frontend developer, currently expanding my skills to include backend development and microsoft azure. I specialize in crafting engaging user experiences using technologies such as React.js,  Next.js, Vue.js, HTML5, CSS3, and TailwindCSS.Additionally, I have proficiency in backend technologies like Node.js and Solidity. Throughout my
+        Detail-oriented and tech-savvy developer with a strong foundation in web development, cloud technologies, and data 
+handling. Demonstrates excellent problem-solving skills, integrity, and a passion for digital transformation. Eager to 
+contribute to innovative projects involving software development, product design, and AI. Committed to continuous 
+learning and adapting quickly to new technologies.
       </p>
-
-      
-
-       
 
           <Link
           to="certification" 
@@ -31,15 +29,6 @@ export default function About() {
             <button className='bg-blue-600 text-xl uppercase tracking-widest font-semibold p-4 w-[90%] text-white rounded-md'> 
            projects </button>
           </Link>
-         
-    
-       
-        
-     
-    
-      
-
-
 
     </div>
     
