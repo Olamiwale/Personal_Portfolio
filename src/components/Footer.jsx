@@ -5,9 +5,9 @@ export default function Footer() {
     scroll.scrollToTop();
   };
   return (
-    <div className="fixed z-50 bottom-0 border-t-4 shadow-lg w-full bg-gray-100">
+    <div className="fixed z-50 bottom-0 w-full  bg-slate-900">
       <div className="p-6 md:max-w-[1200px] flex m-auto justify-center">
-        <div className="flex font-semibold space-x-10">
+        <div className="flex font-semibold space-x-10 border p-2 border-slate-600">
           <a
             href="https://www.linkedin.com/in/paul-ogunmakinju-9236b51a3/"
             className="hover:underline tracking-wider cursor-pointer"

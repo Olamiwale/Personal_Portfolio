@@ -17,7 +17,7 @@ export const logo = [
     {
         url: './cv.png',
         name: 'github',
-        link: 'https://drive.google.com/drive/u/0/home?lfhs=2'
+        link: 'https://docs.google.com/document/d/1QTmHZh5zzQF2G3tSHVhuw8vGcIEjpFTmYoAWSkgPmUU/edit?tab=t.0'
     }
 ];
 
@@ -88,29 +88,29 @@ export const projectData = [
   {
     img: './project_1.png',
     name:'Mapbyruby Fashion Store',
-    github: 'www.github.com',
-    preview: 'https://mapbyruby.netlify.app/'
+    github: 'https://github.com/Olamiwale/millenealappereal',
+    preview: 'https://mapbyruby.com'
   },
                 
   {
-    img: './pro2.png',
-    name:'Project-2',
-    github: 'www.github.com',
-    preview: 'www.google.com'
+    img: './nysc.png',
+    name:'NYSC Connect',
+    github: 'https://github.com/Olamiwale/NYSC',
+    preview: '/'
   },
 
   {
     img: './pro2.png',
-    name:'Project-3',
-    github: 'www.github.com',
-    preview: 'www.google.com'
+    name:'Briitz Store',
+    github: 'https://github.com/Olamiwale/microservice',
+    preview: '/'
   },
   
   {
     img: './pro4.png',
     name:'Project-4',
-    github: 'www.github.com',
-    preview: 'www.google.com'
+    github: 'https://github.com/Olamiwale/monitoring',
+    preview: '/'
   }
 ]
 

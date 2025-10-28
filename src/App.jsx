@@ -15,7 +15,7 @@ import { Element, animateScroll as scroll } from 'react-scroll';
 
 export default function App() {
   return (
-    <div className='bg-gray-100'>
+    <div>
       <Header />
       <div className='container mx-auto'>
         <Element name="home">

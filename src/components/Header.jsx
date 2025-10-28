@@ -30,7 +30,7 @@ export default function Header() {
 
 
   return (
-    <div className={`sticky z-50 top-0 bg-gray-100 ${shadow ? 'border-b-2 shadow-lg shadow-gray-400' : ''}`}>
+    <div className={`sticky z-50 top-0 bg-slate-900 ${shadow ? ' shadow-md shadow-slate-800' : ''}`}>
 
   
     <div className='p-5 md:px-16 md:max-w-[1000px] flex m-auto justify-between items-center'>
@@ -46,7 +46,7 @@ export default function Header() {
           
         </div>
 
-        <nav className={nav ? 'max-md:pt-4 md:flex font-semibold md:space-x-12 flex max-md:absolute max-md:flex-col right-0 top-full max-md:space-y-10 max-md:bg-slate-300 max-md:w-full max-md:justify-center max-md:items-center cursor-pointer': 'hidden md:flex md:space-x-12 font-semibold'}>
+        <nav className={nav ? 'max-md:pt-4 md:flex font-semibold md:space-x-12 flex max-md:absolute max-md:flex-col right-0 top-full max-md:space-y-10 max-md:bg-slate-800 max-md:w-full max-md:justify-center max-md:items-center cursor-pointer': 'hidden md:flex md:space-x-12 font-semibold'}>
 
       <Link 
        to="home"

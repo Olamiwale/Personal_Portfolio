@@ -2,7 +2,7 @@ import { projectData } from '../data'
 
 export default function Project() {
   return (
-    <div className='md:py-60 py-20 bg-white items-center max-w-[1000px] mx-auto px-10 justify-center'>
+    <div className=' bg-slate-900 md:py-60 py-20 items-center max-w-[1000px] mx-auto px-10 justify-center'>
      
         <p className='font-bold text-3xl mb-20 flex'>Project</p>
 
@@ -11,7 +11,7 @@ export default function Project() {
 
           
         {projectData.map((item, id) => (
-  <div key={id} className='flex flex-col p-2 items-center shadow-lg shadow-gray-900 group'>
+  <div key={id} className='flex flex-col p-2 items-center shadow-sm shadow-gray-900 group'>
   
     <img
       src={item.img}
