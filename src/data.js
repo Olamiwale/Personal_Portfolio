@@ -10,6 +10,11 @@ export const logo = [
         link: 'https://x.com/Paulolawalee',
     },
     {
+        url: './whatsapp.png',
+        name: 'github',
+        link: 'https://wa.me/+2347056881825?text=Hello%20there!',
+    },
+    {
         url: './linkdlin.png',
         name: 'github',
         link:'https://www.linkedin.com/in/paul-ogunmakinju-9236b51a3/'
@@ -97,9 +102,9 @@ export const projectData = [
   },
 
   {
-    img: './pro2.png',
-    name:'Briitz Store',
-    github: 'https://github.com/Olamiwale/microservice',
+    img: './ci-cd-pipeline.png',
+    name:'CI-CD Image Pipeline',
+    github: 'https://github.com/Olamiwale/CICD_Pipeline-Platform.git',
     preview: '/'
   },
   
@@ -114,8 +119,7 @@ export const projectData = [
 
 
 export const certifications = [ 
-               
-                
+                            
   {
     img: './cert_4.png',
     name:'Azure Administrator Associate',
@@ -139,12 +143,4 @@ export const certifications = [
     link: 'https://mapbyruby.netlify.app/'
   },
                 
-
-
-                
- 
-                
- 
-                
- 
 ]

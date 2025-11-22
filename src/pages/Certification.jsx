@@ -3,7 +3,11 @@ import { certifications, projectData } from "../data";
 export default function Project() {
   return (
     <div className="md:py-60 py-20 px-10 bg-gray items-center justify-center">
-      <p className="font-bold text-2xl mb-10 pb-5 flex">Certifications</p>
+
+      <div className="flex justify-center">
+        <p className="font-bold text-2xl text-center mb-10 pb-5 flex">Certifications</p>
+      </div>
+      
 
       <div className="gap-5 items-start flex flex-col">
 

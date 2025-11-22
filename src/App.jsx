@@ -17,7 +17,7 @@ export default function App() {
   return (
     <div>
       <Header />
-      <div className='container mx-auto'>
+      <div className=''>
         <Element name="home">
           <Home />
         </Element>
