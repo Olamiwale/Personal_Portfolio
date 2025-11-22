@@ -11,12 +11,11 @@ export default function Home() {
             <p className="text-[25px] md:text-[40px] lg:text-[50px] flex flex-col justify-center items-center font-bold p-4">
               <span className='orange_gradient'>Hi, I'm Paul </span>
               <span className=" orange_gradient custom-text text-center text-[2rem] lg:text-[4rem] md:text-[3rem] ">
-                A Full stack Developer
+                Full-Stack Developer & DevOps Engineer (Kubernetes)
               </span>
             </p>
             <p className="md:px-8 text-xl tracking-wider text-center lg:px-20">
-              I'm a fullstack developer specializing in building and designing
-              exceptional digital experience
+              I build modern applications and implement Kubernetes-driven DevOps workflows for scalable, reliable, and efficient delivery.
             </p>
           </div>
 

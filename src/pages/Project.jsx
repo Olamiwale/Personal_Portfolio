@@ -20,7 +20,7 @@ export default function Project() {
     />
 
   
-    <div className='flex items-center justify-between opacity-0 group-hover:opacity-100 bg-slate-200 py-5 px-2 w-full transition-opacity duration-300'>
+    <div className='flex items-center justify-between opacity-0 group-hover:opacity-100 bg-slate-900 py-5 px-2 w-full transition-opacity duration-300'>
       <p className='py-2 font-semibold'>{item.name}</p> 
 
       <div className='flex space-x-5'>

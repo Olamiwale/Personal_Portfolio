@@ -93,9 +93,9 @@ export const projectData = [
   },
                 
   {
-    img: './nysc.png',
+    img: './tes.png',
     name:'NYSC Connect',
-    github: 'https://github.com/Olamiwale/NYSC',
+    github: 'https://github.com/Olamiwale/NYSC_Mobile_Version_Markup',
     preview: '/'
   },
 
