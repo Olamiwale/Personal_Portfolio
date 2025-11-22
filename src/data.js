@@ -74,10 +74,7 @@ export const skillLogo = [
       url:'./asset/tailwind.png',
       name: 'Tailwind'  
     },
-    {
-      url:'./asset/vue.png',
-      name: 'Vue'  
-    },
+   
 ];
 
 
