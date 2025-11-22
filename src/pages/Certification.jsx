@@ -2,7 +2,7 @@ import { certifications, projectData } from "../data";
 
 export default function Project() {
   return (
-    <div className="md:py-60 py-20 px-10 bg-gray items-center justify-center">
+    <div className="py-20 pb-60 bg-gray mx-auto max-w-[900px] items-center justify-center">
 
       <div className="flex justify-center">
         <p className="font-bold text-2xl text-center mb-10 pb-5 flex">Certifications</p>

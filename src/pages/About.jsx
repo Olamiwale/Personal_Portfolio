@@ -2,7 +2,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 export default function About() {
   return (
-    <div className="py-10 text-white bg-slate-900 justify-center items-center p-5 ">
+    <div className="py-20 text-white bg-slate-900 justify-center items-center p-5 ">
       <div className="text-center">
         <h1 className="font-bold  text-3xl">About</h1>
         <h2 className="py-2 font-semibold text-xl">Who I Am?</h2>

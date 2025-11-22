@@ -2,7 +2,7 @@ import { projectData } from "../data";
 
 export default function Project() {
   return (
-    <div className=" bg-slate-900 py-10 items-center px-10 justify-center">
+    <div className=" bg-slate-900 py-20 items-center px-10 justify-center">
 
       <p className="font-bold text-3xl mb-20 flex justify-center">Project</p>
 

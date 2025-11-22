@@ -4,7 +4,7 @@ export default function Home() {
   return (
     
        <div className='flex h-screen justify-center items-center'>
-          <div className='w-3/4 md:w-[70%]'>
+          <div className='w-3/4 md:max-w-[900px]'>
          <div>
           <div className="flex flex-col justify-center items-center">
             <p className="uppercase"> let's build together</p>

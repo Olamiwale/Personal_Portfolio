@@ -32,52 +32,56 @@ export const skillLogo = [
    
     {
       url:'./asset/azure.png',
-      name: 'Azure'  
+      name: ''  
     },
     {
       url:'./asset/docker.png',
-      name: 'Docker'  
+      name: ''  
     },
     {
       url:'./asset/kubernetes.png',
-      name: 'Kubernetes'  
+      name: ''  
+    },
+    {
+      url:'./asset/nodejs.png',
+      name: ''  
     },
     {
       url:'./asset/csharp.png',
-      name: 'C sharp'  
+      name: ''  
     },
     {
       url:'./asset/css.png',
-      name: 'CSS'  
+      name: ''  
     },
     {
       url:'./asset/firebase.png',
-      name: 'Firebase'  
+      name: ''  
     },
     {
       url:'./asset/github1.png',
-      name: 'Github'  
+      name: ''  
     },
    
     {
       url:'./asset/next.png',
-      name: 'Nextjs'  
+      name: ''  
     },
     {
       url:'./asset/javascript.png',
-      name: 'Javascript'  
+      name: ''  
     },
     {
       url:'./asset/mongo.png',
-      name: 'Mongodb'  
+      name: ''  
     },
     {
       url:'./asset/react.png',
-      name: 'React'  
+      name: ''  
     },
     {
       url:'./asset/tailwind.png',
-      name: 'Tailwind'  
+      name: ''  
     },
    
 ];

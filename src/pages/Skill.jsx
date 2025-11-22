@@ -3,7 +3,7 @@ import { skillLogo } from "../data";
 export default function Skill() {
   console.log(skillLogo);
   return (
-    <div className=" md:py-60 py-20 max-w-[1000px] mx-auto p-5">
+    <div className="py-20 max-w-[900px] mx-auto">
       <div className="text-center flex-col mt-10">
         <p className="font-bold text-3xl pb-2">Skills</p>
         <p className="font-semibold text-xl pb-10">
