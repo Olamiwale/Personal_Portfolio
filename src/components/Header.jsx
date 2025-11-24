@@ -23,37 +23,21 @@ export default function Header() {
   }, []);
 
   return (
-    <div
-      className={`sticky z-50 top-0 bg-slate-900 ${
-        shadow ? " shadow-md shadow-slate-800" : ""
-      }`}
-    >
-      <div className="p-5 md:px-16 md:max-w-[1000px] flex m-auto justify-between items-center">
-        <div className="uppercase font-semibold">
-          <img
-            src="./myLogo.png"
-            className="w-16 rounded-full
-          "
-          />
-        </div>
+    <div className={`sticky z-50 top-0 bg-slate-900 ${shadow ? " shadow-md shadow-slate-800" : "" }`}>
 
-        <div className="md:hidden cursor-pointer" onClick={() => setNav(!nav)}>
-          {!nav ? <FaChevronUp size={20} /> : <FaChevronDown size={20} />}
-        </div>
+      <div className=" flex items-center justify-between max-w-[1000px] mx-auto p-5">
 
-        <nav
-          className={
-            nav
-              ? "max-md:pt-4 md:flex font-semibold md:space-x-12 flex max-md:absolute max-md:flex-col right-0 top-full max-md:space-y-10 max-md:bg-slate-800 max-md:w-full max-md:justify-center max-md:items-center cursor-pointer w-3/4"
-              
-              : "hidden md:flex md:space-x-12 font-semibold"
-          }
-        >
-          <Link
+        <img src="./myLogo.png" className="w-16 rounded-full"/>
+
+
+        <nav className={ 
+          nav ? "md:relative md:bg-slate-900 md:flex-row md:justify-end absolute right-0 top-full flex flex-col gap-5 w-full items-center bg-slate-700" 
+          : " hidden md:flex md:gap-5" } >
+         <Link
             to="home"
             activeClass="text-gray-500"
             onClick={() => setNav(!nav)}
-            className="max-md:border-b pb-5 w-full justify-center flex items-center cursor-pointer"
+            className="cursor-pointer px-5 py-4 "
             smooth={true}
             duration={500}
             spy={true}
@@ -61,12 +45,11 @@ export default function Header() {
           >
             Home
           </Link>
-
           <Link
             to="about"
             activeClass="text-gray-500"
             onClick={() => setNav(!nav)}
-            className="max-md:border-b pb-5 w-full justify-center flex items-center cursor-pointer"
+            className="cursor-pointer px-5 py-4"
             smooth={true}
             duration={500}
             spy={true}
@@ -79,7 +62,7 @@ export default function Header() {
             to="skill"
             activeClass="text-gray-500"
             onClick={() => setNav(!nav)}
-            className="max-md:border-b pb-5 w-full justify-center flex items-center cursor-pointer"
+            className="cursor-pointer px-5 py-4"
             smooth={true}
             duration={500}
             spy={true}
@@ -92,7 +75,7 @@ export default function Header() {
             to="project"
             activeClass="text-gray-500"
             onClick={() => setNav(!nav)}
-            className="max-md:border-b pb-5 w-full justify-center flex items-center cursor-pointer"
+            className=" cursor-pointer px-5 py-4"
             smooth={true}
             duration={500}
             spy={true}
@@ -105,7 +88,7 @@ export default function Header() {
             to="certification"
             activeClass="text-gray-500"
             onClick={() => setNav(!nav)}
-            className="max-md:border-b pb-5 w-full justify-center flex items-center cursor-pointer"
+            className=" cursor-pointer px-5 py-4"
             smooth={true}
             duration={500}
             spy={true}
@@ -118,7 +101,7 @@ export default function Header() {
             to="contact"
             activeClass="text-gray-500"
             onClick={() => setNav(!nav)}
-            className="max-md:border-b pb-5 w-full justify-center flex items-center cursor-pointer"
+            className="cursor-pointer px-5 py-4"
             smooth={true}
             duration={500}
             spy={true}
@@ -127,7 +110,13 @@ export default function Header() {
             Contact
           </Link>
         </nav>
+
+        <div className="md:hidden cursor-pointer" onClick={() => setNav(!nav)}>
+          {!nav ? <FaChevronUp size={20} /> : <FaChevronDown size={20} />}
+        </div>
       </div>
     </div>
   );
 }
+
+
