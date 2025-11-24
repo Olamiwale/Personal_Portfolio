@@ -1,43 +1,52 @@
+import { Suspense, lazy } from 'react';
+import { Element } from 'react-scroll';
+
 import Header from './components/Header';
-import About from './pages/About';
-import Skill from './pages/Skill';
 import Footer from './components/Footer';
-import Home from './pages/Home';
-import Project from './pages/Project';
-import Contact from './pages/Contact'
-import Certification from './pages/Certification'
 
-
-
-import { Element, animateScroll as scroll } from 'react-scroll';
-
-
+// Lazy load all large page components
+const Home = lazy(() => import('./pages/Home'));
+const About = lazy(() => import('./pages/About'));
+const Skill = lazy(() => import('./pages/Skill'));
+const Project = lazy(() => import('./pages/Project'));
+const Contact = lazy(() => import('./pages/Contact'));
+const Certification = lazy(() => import('./pages/Certification'));
 
 export default function App() {
   return (
     <div>
       <Header />
-      <div className=''>
+
+    {/* Wrap lazy components in Suspense */}
+      <Suspense fallback={<div className="text-center p-10">Loading...</div>}>
+
         <Element name="home">
           <Home />
         </Element>
+
         <Element name="about">
           <About />
         </Element>
+
         <Element name="skill">
           <Skill />
         </Element>
+
         <Element name="project">
           <Project />
         </Element>
+
         <Element name="certification">
           <Certification />
         </Element>
+
         <Element name="contact">
           <Contact />
         </Element>
-      </div>
+
+      </Suspense>
+
       <Footer />
     </div>
-  )
+  );
 }
