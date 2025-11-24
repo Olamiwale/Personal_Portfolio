@@ -9,11 +9,7 @@ export const logo = [
         name: 'github',
         link: 'https://x.com/Paulolawalee',
     },
-    {
-        url: './whatsapp.png',
-        name: 'github',
-        link: 'https://wa.me/+2347056881825?text=Hello%20there!',
-    },
+  
     {
         url: './linkdlin.png',
         name: 'github',
@@ -148,3 +144,6 @@ export const certifications = [
   },
                 
 ]
+
+
+export const img = [ './cert_4.png', './backCert.png', './cert_2.png' ]
