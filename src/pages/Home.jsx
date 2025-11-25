@@ -3,7 +3,7 @@ import { logo } from '../data'
 export default function Home() {
   return (
     
-       <div className='flex h-screen justify-center items-center'>
+       <div className='flex h-screen justify-center items-center pb-32'>
           <div className='w-3/4 md:max-w-[900px]'>
          <div>
           <div className="flex flex-col justify-center items-center">
@@ -32,11 +32,12 @@ export default function Home() {
 
          <div className="flex justify-center gap-20 my-[50px]">
           {logo.map((item, id)=>(
-            <div className='bg-slate-900 hover:bg-slate-800 transition duration-500 rounded-lg shadow-sm shadow-slate-400 p-2'> 
+            <div key={id} className='bg-slate-900 hover:bg-slate-800 transition duration-500 rounded-lg shadow-sm shadow-slate-400 p-2'> 
               <a href={item.link}
                   target="_blank"
                   rel="noreferrer"> 
-              <img src={item.url} alt={item.id} className="w-[35px]" />
+              <img src={item.url} alt={item.id} className="w-[30px]" />
+              
               </a>
             </div>
           ))}

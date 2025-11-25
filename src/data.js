@@ -24,97 +24,80 @@ export const logo = [
 
 
 
-export const skillLogo = [
-   
-    {
-      url:'./asset/azure.png',
-      name: ''  
-    },
-    {
-      url:'./asset/docker.png',
-      name: ''  
-    },
-    {
-      url:'./asset/kubernetes.png',
-      name: ''  
-    },
-    {
-      url:'./asset/nodejs.png',
-      name: ''  
-    },
-    {
-      url:'./asset/csharp.png',
-      name: ''  
-    },
-    {
-      url:'./asset/css.png',
-      name: ''  
-    },
-    {
-      url:'./asset/firebase.png',
-      name: ''  
-    },
-    {
-      url:'./asset/github1.png',
-      name: ''  
-    },
-   
-    {
-      url:'./asset/next.png',
-      name: ''  
-    },
-    {
-      url:'./asset/javascript.png',
-      name: ''  
-    },
-    {
-      url:'./asset/mongo.png',
-      name: ''  
-    },
-    {
-      url:'./asset/react.png',
-      name: ''  
-    },
-    {
-      url:'./asset/tailwind.png',
-      name: ''  
-    },
-   
-];
 
 
 
 
-export const projectData = [ 
 
+export const projectData = [
   {
-    img: './project_1.png',
-    name:'Mapbyruby Fashion Store',
+    images: ['./tes.png', './aboutImg.png', './aboutImg.png'],
+    name: 'Mapbyruby Fashion Store',
+    description: 'An elegant e-commerce platform for showcasing and selling fashion items with a modern UI.',
+    techStack: ['React', 'Node.js', 'MongoDB', 'CSS'],
+    features: [
+        "Microservices Architecture",
+        "Real-time Inventory Tracking",
+        "Secure Payment Gateway Integration",
+        "Advanced Search & Filtering",
+        "Mobile-Responsive Design"
+      ],
     github: 'https://github.com/Olamiwale/millenealappereal',
-    preview: 'https://mapbyruby.com'
-  },
-                
-  {
-    img: './tes.png',
-    name:'NYSC Connect',
-    github: 'https://github.com/Olamiwale/NYSC_Mobile_Version_Markup',
-    preview: '/'
+    preview: 'https://mapbyruby.com',
+    category: "E-commerce"
   },
 
   {
-    img: './ci-cd-pipeline.png',
-    name:'CI-CD Image Pipeline',
-    github: 'https://github.com/Olamiwale/CICD_Pipeline-Platform.git',
-    preview: '/'
+    images: ['./tes.png', './aboutImg.png', './aboutImg.png'],
+    name: 'NYSC Connect',
+    description: 'A mobile-first app designed to connect NYSC members, share updates, and streamline communication.',
+    techStack: ['React Native', 'Firebase', 'Expo', 'JavaScript'],
+    features: [
+        "Microservices Architecture",
+        "Real-time Inventory Tracking",
+        "Secure Payment Gateway Integration",
+        "Advanced Search & Filtering",
+        "Mobile-Responsive Design"
+      ],
+    github: 'https://github.com/Olamiwale/NYSC_Mobile_Version_Markup',
+    preview: '/',
+    category: "E-commerce"
   },
-  
+
   {
-    img: './pro4.png',
-    name:'Project-4',
+    images: ['./ci-cd-pipeline.png', './aboutImg.png', './aboutImg.png'],
+    name: 'CI-CD Image Pipeline',
+    description: 'A DevOps project that automates image building and deployment using continuous integration pipelines.',
+    techStack: ['Docker', 'Jenkins', 'Kubernetes', 'GitHub Actions'],
+    features: [
+        "Microservices Architecture",
+        "Real-time Inventory Tracking",
+        "Secure Payment Gateway Integration",
+        "Advanced Search & Filtering",
+        "Mobile-Responsive Design"
+      ],
+    github: 'https://github.com/Olamiwale/CICD_Pipeline-Platform.git',
+    preview: '/',
+    category: "E-commerce"
+  },
+
+  {
+    images: ['./pro4.png', './aboutImg.png', './aboutImg.png'],
+    name: 'Project-4',
+    description: 'A monitoring dashboard that tracks system performance and provides real-time analytics.',
+    techStack: ['Python', 'Flask', 'Grafana', 'PostgreSQL'],
+    features: [
+        "Microservices Architecture",
+        "Real-time Inventory Tracking",
+        "Secure Payment Gateway Integration",
+        "Advanced Search & Filtering",
+        "Mobile-Responsive Design"
+      ],
     github: 'https://github.com/Olamiwale/monitoring',
-    preview: '/'
+    preview: '/',
+    category: "E-commerce"
   }
-]
+];
 
 
 
