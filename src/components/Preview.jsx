@@ -22,7 +22,7 @@ export default function Preview({ project, onClose }) {
         {/* IMAGES */}
         <div className="grid grid-cols-3 gap-1 p-2">
           {project.images.map((img, i) => (
-            <img key={i} src={img} alt={project.name} />
+            <img key={i} src={img} alt={project.name} className='w-full h-[180px]' />
           ))}
         </div>
 

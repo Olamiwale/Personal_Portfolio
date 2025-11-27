@@ -30,8 +30,27 @@ export const logo = [
 
 
 export const projectData = [
+
+
+ {
+    images: ['./project/p1.png', './project/p11.png', './project/p111.png'],
+    name: 'Project-4',
+    description: 'A monitoring dashboard that tracks system performance and provides real-time analytics.',
+    techStack: ['Python', 'Flask', 'Grafana', 'PostgreSQL'],
+    features: [
+        "Microservices Architecture",
+        "Real-time Inventory Tracking",
+        "Secure Payment Gateway Integration",
+        "Advanced Search & Filtering",
+        "Mobile-Responsive Design"
+      ],
+    github: 'https://github.com/Olamiwale/Microservices_with_mesh-service',
+    preview: '/',
+    category: "Kubernetes"
+  },
+
   {
-    images: ['./tes.png', './aboutImg.png', './aboutImg.png'],
+    images: ['./project/tes.png', './aboutImg.png', './aboutImg.png'],
     name: 'Mapbyruby Fashion Store',
     description: 'An elegant e-commerce platform for showcasing and selling fashion items with a modern UI.',
     techStack: ['React', 'Node.js', 'MongoDB', 'CSS'],
@@ -48,7 +67,7 @@ export const projectData = [
   },
 
   {
-    images: ['./tes.png', './aboutImg.png', './aboutImg.png'],
+    images: ['./project/tes.png', './aboutImg.png', './aboutImg.png'],
     name: 'NYSC Connect',
     description: 'A mobile-first app designed to connect NYSC members, share updates, and streamline communication.',
     techStack: ['React Native', 'Firebase', 'Expo', 'JavaScript'],
@@ -81,22 +100,7 @@ export const projectData = [
     category: "E-commerce"
   },
 
-  {
-    images: ['./pro4.png', './aboutImg.png', './aboutImg.png'],
-    name: 'Project-4',
-    description: 'A monitoring dashboard that tracks system performance and provides real-time analytics.',
-    techStack: ['Python', 'Flask', 'Grafana', 'PostgreSQL'],
-    features: [
-        "Microservices Architecture",
-        "Real-time Inventory Tracking",
-        "Secure Payment Gateway Integration",
-        "Advanced Search & Filtering",
-        "Mobile-Responsive Design"
-      ],
-    github: 'https://github.com/Olamiwale/monitoring',
-    preview: '/',
-    category: "E-commerce"
-  }
+ 
 ];
 
 

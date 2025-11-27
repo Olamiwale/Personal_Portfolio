@@ -7,7 +7,7 @@ export default function Project() {
   const [selectedProject, setSelectedProject] = useState(null);
 
   return (
-    <div className=" mt-16 bg-slate-900 items-center px-10 justify-center">
+    <div className=" mt-16 py-10 bg-slate-900 items-center px-10 justify-center">
       <div className="mx-auto mb-16 max-w-[900px] text-center">
         <div className="inline-block mb-4"></div>
         <h2 className="font-bold text-3xl">Featured Projects</h2>
