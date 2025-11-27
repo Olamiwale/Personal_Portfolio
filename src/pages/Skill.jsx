@@ -35,7 +35,7 @@ export default function SkillsSection() {
       skills: [
         { name: "Docker", level: 88 },
         { name: "Kubernetes", level: 75 },
-        { name: "Jenkins", level: 80 },
+        { name: "Github Actions", level: 80 },
         { name: "AWS", level: 82 },
       ],
     },
@@ -58,15 +58,13 @@ export default function SkillsSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-3 gap-8 mb-16">
+       {/* <div className="grid grid-cols-3 gap-8 mb-16">
           {skillCategories.map((category, idx) => (
             <div
               key={idx}
-              className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl p-6 border border-slate-700/50"
-            >
+              className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl p-6 border border-slate-700/50" >
               <div
-                className={`inline-flex p-3 rounded-xl bg-gradient-to-br ${category.color} mb-4`}
-              >
+                className={`inline-flex p-3 rounded-xl bg-gradient-to-br ${category.color} mb-4`}>
                 {category.icon}
               </div>
               <h3 className="text-xl font-bold text-white mb-4">
@@ -82,15 +80,14 @@ export default function SkillsSection() {
                     <div className="h-2 bg-slate-700 rounded-full overflow-hidden">
                       <div
                         className={`h-full bg-gradient-to-r ${category.color} rounded-full transition-all duration-1000 ease-out`}
-                        style={{ width: `${skill.level}%` }}
-                      />
+                        style={{ width: `${skill.level}%` }} />
                     </div>
                   </div>
                 ))}
               </div>
             </div>
           ))}
-        </div>
+        </div>*/}
 
         <div className="rounded-2xl p-8 border border-slate-700/50">
           <h3 className="text-2xl font-bold text-white mb-8 text-center">
@@ -129,11 +126,6 @@ export default function SkillsSection() {
               label: "Projects",
               value: "20+",
               icon: <Code className="w-5 h-5" />,
-            },
-            {
-              label: "Years Exp",
-              value: "3+",
-              icon: <Cpu className="w-5 h-5" />,
             },
             {
               label: "Deployments",

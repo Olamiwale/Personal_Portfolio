@@ -8,7 +8,7 @@ export default function Preview({ project, onClose }) {
       
       <div className="bg-slate-900 text-white overflow-hidden md:w-[800px] w-[500px]">
 
-        <div className="bg-gradient-to-r from-blue-600 to-purple-600 px-6 py-4 flex justify-between items-center">
+        <div className="bg-slate-900 px-6 py-4 flex justify-between items-center">
           <h2 className="text-2xl font-bold text-white">{project.name}</h2>
 
           <button
@@ -62,7 +62,7 @@ export default function Preview({ project, onClose }) {
           </div>
 
           {/* Links */}
-          <div className="flex gap-4 pt-4">
+          <div className="flex justify-center gap-4 pt-4">
             <a
               href={project.github}
               target="_blank"
@@ -70,14 +70,14 @@ export default function Preview({ project, onClose }) {
               className="flex items-center gap-2 bg-gray-800 px-6 py-3 rounded-lg"
             >
               <Github size={20} />
-              View Source Code
+              Source Code
             </a>
 
             <a
               href={project.preview}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 bg-gradient-to-r from-blue-600 to-purple-600 px-6 py-3 rounded-lg"
+              className="flex items-center gap-2 bg-slate-600/35 px-6 py-3 rounded-lg"
             >
               <ExternalLink size={20} />
               Live Demo
