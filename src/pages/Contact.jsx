@@ -6,7 +6,7 @@ export default function Contact() {
 
       <div className="text-center">
         <p className="p- text-3xl font-bold"> Contact </p>
-      <p className="pb-5 text-2xl font-semibold">
+      <p className="pb-5 text-2xl">
         Do you have any question? contact me </p> </div>
       
 
