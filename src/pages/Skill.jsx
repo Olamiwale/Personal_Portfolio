@@ -46,12 +46,10 @@ export default function SkillsSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <div className="inline-block mb-4">
-            <span className="text-purple-400 text-sm font-semibold tracking-wider uppercase bg-purple-400/10 px-4 py-2 rounded-full">
-              What I Do
-            </span>
+            
           </div>
-          <h2 className="font-bold text-xl md:text-5xl mb-4">
-            Skills & Expertise
+          <h2 className="font-bold text-xl md:text-3xl mb-4">
+            Skills
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
             A comprehensive toolkit for building modern, scalable applications
@@ -97,8 +95,7 @@ export default function SkillsSection() {
             {skillLogo.map((item, id) => (
               <div
                 key={id}
-                className="group relative flex flex-col items-center justify-center p-4 bg-slate-900/50 rounded-xl border border-slate-700/50 transition-all duration-300"
-              >
+                className="group relative flex flex-col items-center justify-center p-4 bg-slate-900/50 rounded-xl border border-slate-700/50 transition-all duration-300">
                 <div className="relative">
                   <img
                     src={item.url}
