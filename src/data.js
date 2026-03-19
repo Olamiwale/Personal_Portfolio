@@ -22,6 +22,11 @@ export const logo = [
   },
 ];
 
+
+
+
+
+
 export const projectData = [
   {
     images: ["./project/mesh1.png", "./project/mesh2.png", "./project/mesh3.png"],
@@ -126,7 +131,7 @@ export const certifications = [
   {
     img: "./cert_3.png",
     name: "Introduction to Cybersecurity",
-    link: "https://mapbyruby.netlify.app/",
+    link: "/",
   },
 ];
 
