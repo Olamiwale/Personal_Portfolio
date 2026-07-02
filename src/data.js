@@ -7,13 +7,13 @@ export const logo = [
   {
     url: "./X.png",
     name: "github",
-    link: "https://x.com/Paulolawalee",
+    link: "https://x.com/briitxz",
   },
 
   {
     url: "./linkdlin.png",
     name: "github",
-    link: "https://www.linkedin.com/in/paul-ogunmakinju-9236b51a3/",
+    link: "https://www.linkedin.com/in/paulolaw/",
   },
   {
     url: "./cv.png",
@@ -28,6 +28,24 @@ export const logo = [
 
 
 export const projectData = [
+   {
+    images: ["./project/map1.png", "./project/map2.png", "./project/map3.png"],
+    name: "Mapbyruby Fashion Store",
+    description:
+      "An elegant e-commerce platform for showcasing and selling fashion items with a modern UI.",
+    techStack: ["React", "Node.js", "MongoDB"],
+    features: [
+      "Monolithic Architecture",
+      "Search & Filtering for easy product discovery",
+      "Payment Gateway using paystack for secure transactions",
+      "Mobile Responsive Design",
+      "Bespoke section for custom measurements and personalized shopping experience",
+    ],
+    github: "https://github.com/Olamiwale",
+    preview: "https://mapbyruby.com",
+    category: "E-commerce",
+  }, 
+  
   {
     images: ["./project/mesh1.png", "./project/mesh2.png", "./project/mesh3.png"],
     name: "Microservice with Istio service",
@@ -45,36 +63,25 @@ export const projectData = [
     category: "Kubernetes",
   },
 
-  {
-    images: ["./project/map1.png", "./project/map2.png", "./project/map3.png"],
-    name: "Mapbyruby Fashion Store",
-    description:
-      "An elegant e-commerce platform for showcasing and selling fashion items with a modern UI.",
-    techStack: ["React", "Node.js", "MongoDB"],
-    features: [
-      "Monolithic Architecture",
-      "Search & Filtering",
-      "Payment Gateway",
-      "Mobile Responsive Design",
-    ],
-    github: "https://github.com/Olamiwale/millenealappereal",
-    preview: "https://mapbyruby.com",
-    category: "E-commerce",
-  },
+
+
 
   {
-    images: ["./project/nysc1.png", "./project/nysc2.png", "./project/nysc3.png"],
-    name: "NYSC Connect",
+    images: ["./project/nya.png", "./project/nya1.png", "./project/nya.png"],
+    name: "NYA website ",
     description:
-      "A mobile-first app designed to connect NYSC members, share updates, and streamline communication.",
-    techStack: ["React Native", "Firebase", "Expo", "JavaScript"],
+      "A revamp of the NYA website, enhancing user experience and functionality with modern web technologies.",
+    techStack: ["Wordpress", "securewebhosting"],
     features: [
-      "Microservices Architecture",
+      "Redesigned User Interface",
+      "implemented Secure Hosting",
+      "Implemented cloudflare for enhanced security and performance",
+      "Enhanced User Experience",
       "Advanced Search & Filtering",
       "Mobile-Responsive Design",
     ],
-    github: "https://github.com/Olamiwale/NYSC_Mobile_Version_Markup",
-    preview: "/",
+    github: "/",
+    preview: "https://nigerianyoungacademy.org",
     category: "Mobile App",
   },
 

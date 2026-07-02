@@ -23,7 +23,7 @@ export default function SkillsSection() {
       color: "from-green-500 to-emerald-500",
       skills: [
         { name: "Node.js", level: 85 },
-        { name: "Python", level: 80 },
+        { name: "C-Sharp", level: 80 },
         { name: "MongoDB", level: 82 },
         { name: "PostgreSQL", level: 78 },
       ],
@@ -126,7 +126,7 @@ export default function SkillsSection() {
             },
             {
               label: "Deployments",
-              value: "50+",
+              value: "20+",
               icon: <Globe className="w-5 h-5" />,
             },
           ].map((stat, idx) => (
