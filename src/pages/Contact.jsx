@@ -2,7 +2,7 @@ import Form from "../components/Form";
 
 export default function Contact() {
   return (
-    <div className="bg-slate-900 pb-20  py-10 mx-auto">
+    <div className=" pb-20  py-10 mx-auto">
 
       <div className="text-center">
         <p className="p- text-3xl font-bold"> Contact </p>

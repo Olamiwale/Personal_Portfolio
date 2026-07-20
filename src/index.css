@@ -2,18 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
+/* @layer base {
   body {
     @apply bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 min-h-screen;
   }
+} */
+@layer base {
+  body {
+    @apply bg-black font-merienda;
+  }
 }
+
+
 @layer base {
   body {
     @apply text-white;
   }
 }
 
+
+
 .orange_gradient {
+    font-family: 'Merienda', cursive;
     @apply bg-gradient-to-r from-yellow-200 via-yellow-600 to-yellow-200 bg-clip-text text-transparent;
   }
 

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Code, Database, Cloud, Cpu, Globe, Layers } from "lucide-react";
 import { skillLogo } from "../skillData";
+import Breaker from "../components/Breaker";
 
 export default function SkillsSection() {
   const [hoveredSkill, setHoveredSkill] = useState(null);
@@ -42,6 +43,7 @@ export default function SkillsSection() {
   ];
 
   return (
+    <> 
     <div className="py-20 px-6 ">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
@@ -146,5 +148,7 @@ export default function SkillsSection() {
         </div>
       </div>
     </div>
+    <Breaker />
+    </>
   );
 }

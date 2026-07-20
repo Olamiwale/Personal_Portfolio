@@ -23,7 +23,7 @@ export default function Header() {
   }, []);
 
   return (
-    <div className={`sticky z-50 top-0 bg-slate-900 ${shadow ? " shadow-md shadow-slate-800" : "" }`}>
+    <div className={`sticky z-50 top-0 bg-black ${shadow ? " shadow-md shadow-slate-800" : "" }`}>
 
       <div className=" flex items-center justify-between max-w-[1000px] mx-auto p-5">
 

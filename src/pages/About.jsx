@@ -1,8 +1,10 @@
 import { Link, animateScroll as scroll } from "react-scroll";
+import Breaker from "../components/Breaker";
 
 export default function About() {
   return (
-    <div className="py-20 text-white bg-slate-900 justify-center items-center p-5 ">
+    <> 
+    <div className="py-20 text-white justify-center items-center p-5 ">
       <div className="text-center">
         <h1 className="font-bold  text-3xl">About</h1>
         <h2 className="py-2 font-semibold text-xl">Who I Am?</h2>
@@ -10,7 +12,7 @@ export default function About() {
 
       <div className="md:grid max-w-[900px] m-auto grid-cols-2 gap-[20px] items-center">
         <div>
-          <p className="tracking-wider mb-10 leading-10 md:w-[500px] mt-10">
+          <p className="tracking-wider mb-10 leading-10 md:w-[500px] text-sm mt-10">
             Detail-oriented and tech-savvy developer with a strong foundation in
             web development, cloud technologies, and data handling. Demonstrates
             excellent problem-solving skills, integrity, and a passion for
@@ -46,5 +48,7 @@ export default function About() {
        
       </div>
     </div>
+    <Breaker />
+    </>
   );
 }

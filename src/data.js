@@ -20,6 +20,11 @@ export const logo = [
     name: "github",
     link: "https://docs.google.com/document/d/1QTmHZh5zzQF2G3tSHVhuw8vGcIEjpFTmYoAWSkgPmUU/edit?tab=t.0",
   },
+  {
+    url: "./whatsapp.png",
+    name: "Whatsapp",
+    link: "https://wa.me/+2347056881825?text=Hello%20there!",
+  },
 ];
 
 
